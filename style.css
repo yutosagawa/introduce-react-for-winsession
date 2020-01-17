@@ -1,0 +1,48 @@
+:root {
+  --color-white: #fff;
+  --color-black: #333;
+  --color-cyan: #7bb7fa;
+}
+
+html {
+  /* set the base font-size */
+  font-size: 62.5%;
+}
+
+body {
+  /* set the default background */
+  background: var(--color-white);
+
+  /* set the default font-color */
+  color: var(--color-black);
+}
+
+/* code blocks */
+code[class*='language-'],
+pre[class*='language-'] {
+  font-size: 2rem;
+}
+
+a {
+  /* set the default link color */
+  color: var(--color-black);
+}
+
+a:hover {
+  color: #000;
+}
+
+.toc, .toc ol > li:before, .chapter {
+  background-color: #fff;
+}
+
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+  background: #faf9f9
+}
+
+/* https://hiroppy.github.io/fusuma/docs/guides/slide-syntax#declaring-section-title */
+.section-title {
+}
+
+.title {
+}

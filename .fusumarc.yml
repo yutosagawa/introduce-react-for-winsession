@@ -1,0 +1,24 @@
+meta:
+  title: React.js導入しようとしている件
+  thumbnail: https://github.com/yutosagawa/introduce-react-for-winsession/blob/master/images/thumb.png?raw=true
+  description: WinSession用の資料
+  sns:
+slide:
+  loop: false
+  sidebar: true
+  targetBlank: true
+  showIndex: true
+  isVertical: false
+  code:
+    languages:
+      - javascript
+    plugins: []
+    theme: default
+  chart: false
+  math: false
+extends:
+  js:
+  css: ./style.css
+  webpack:
+build:
+  ssr: true

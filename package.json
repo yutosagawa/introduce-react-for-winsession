@@ -1,0 +1,15 @@
+{
+  "name": "introduce-react-for-winsession",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "fusuma start",
+    "build": "fusuma build",
+    "live": "fusma live",
+    "pdf": "fusuma pdf"
+  },
+  "dependencies": {
+    "fusuma": "^1.15.1"
+  }
+}
